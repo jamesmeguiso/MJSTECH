@@ -1,0 +1,6 @@
+{
+  "name": "MJSTECH Computer Shop - Cebu",
+  "description": "High-performance computer store, custom PC builder, repair tracking, and interactive SQL dashboard for MJSTECH in Talisay City, Cebu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
