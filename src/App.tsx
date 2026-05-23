@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { ShoppingBag, Wrench, Landmark, Cpu, Layers, Shield } from 'lucide-react';
-import CatalogTab from './components/ProductCatalog';
-import BuilderTab from './components/PCBuilder';
-import RepairTab from './components/FAQ'; 
-import MapTab from './components/MapComponent';
-import AdminTab from './components/DeliveryTracker';
+import CatalogTab from './components/CatalogTab';
+import BuilderTab from './components/BuilderTab';
+import RepairTab from './components/RepairTab';
+import MapTab from './components/MapTab';
+import AdminTab from './components/AdminTab';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<'catalog' | 'builder' | 'repairs' | 'location' | 'admin'>('catalog');
